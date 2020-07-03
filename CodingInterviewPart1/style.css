@@ -1,0 +1,61 @@
+html {
+  box-sizing:border-box;
+}
+body {
+      max-width: 1200px;
+      margin: 0 auto;
+}
+  
+#cardContainer{
+      padding: 1%;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: left;
+}
+
+
+ 
+img{
+      display: block;
+      margin: 5% auto;
+      border-radius: 50%;
+      height: 120px;
+      width: 120px;
+}
+
+h1, h2{
+      text-align: center;
+}
+  
+  .empCard {
+      border: 1px solid black;
+      padding: 10px;
+      margin: 2%;
+      width: 300px;
+  }
+
+  .empRole{
+      float: left;
+      margin-top: 32px;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-bottom: 0;
+      padding: 5px 10px;
+      width: fit-content;
+    
+  }
+  
+/* media queries */
+}
+
+@media screen and (max-width: 1050px) {
+  .card {
+      flex: 40%;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    .card {
+        flex-direction: column;
+    }
+}
